@@ -1,1 +1,1 @@
-# PhotoFilmSlider
+# PhotoFilmSlider on JavaScript without outer frameworks.

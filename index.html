@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmSlider</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="scroller_container">
+        <img src="images/Left.png" alt="left_arrow" onmousemove="_scroller.timer('left', 0)" 
+        onmouseout="_scroller.stop()" height="100">
+        <div class="scroller_window" id="scroller_window">
+            <div class="scroller_row" id="scroller_row">
+                <div id="scroller_rule">
+                    <a href="#1" onclick="return !1">
+                        <img src="images/civic1.jpg" height="100" alt="img1">
+                    </a>
+                    <a href="#2" onclick="return !1">
+                        <img src="images/civic2.jpg" height="100" alt="img2">
+                    </a>
+                    <a href="#3" onclick="return !1">
+                        <img src="images/civic3.jpg" height="100" alt="img3">
+                    </a>
+                    <a href="#4" onclick="return !1">
+                        <img src="images/civic4.jpg" height="100" alt="img4">
+                    </a>
+                    <a href="#5" onclick="return !1">
+                        <img src="images/civic5.jpg" height="100" alt="img5">
+                    </a>
+                    <a href="#6" onclick="return !1">
+                        <img src="images/civic6.jpg" height="100" alt="img6">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="images/Right.png" alt="right_arrow" onmousemove="_scroller.timer('right', 0)" 
+        onmouseout="_scroller.stop()" height="100">
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>
