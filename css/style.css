@@ -41,3 +41,8 @@
 a img {
     border: 0;
 }
+
+.film {
+    height: 260px;
+    margin: auto;
+}
